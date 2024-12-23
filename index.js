@@ -9,7 +9,7 @@ const errorHandler = require('./middleware/error');
 const authRoutes = require('./routes/auth');
 const pointsRoutes = require('./routes/points');
 const rewardsRoutes = require('./routes/rewards');
-const announcementsRoutes = require('./routes/announcements');
+const announcementsRoutes = require('./routes/announcement');
 
 const app = express();
 
